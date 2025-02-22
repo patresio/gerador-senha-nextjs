@@ -2,7 +2,7 @@
 import caracteres from "@/data/caracteres";
 import opcoes from "@/data/opcoesCaracteres";
 import { IconClipboard } from "@tabler/icons-react";
-import { useState } from "react";
+import { ChangeEventHandler, useState } from "react";
 import Checkbox from "./components/Checkbox";
 
 export default function Home() {
