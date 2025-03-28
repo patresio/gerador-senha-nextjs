@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔑 Gerador de Senhas
 
-## Getting Started
+<div align="center">
+<img src="https://github.com/patresio/gerador-senha-nextjs/raw/main/.gitassets/capa.png" width="350" />
 
-First, run the development server:
+<div data-badges>
+    <img src="https://img.shields.io/github/stars/patresio/gerador-senha-nextjs?style=for-the-badge" alt="GitHub stars" />
+    <img src="https://img.shields.io/github/forks/patresio/gerador-senha-nextjs?style=for-the-badge" alt="GitHub forks" />
+    <img src="https://img.shields.io/github/issues/patresio/gerador-senha-nextjs?style=for-the-badge" alt="GitHub issues" />
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<div data-badges>
+    <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+</div>
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O aplicativo Gerador de Senhas é uma ferramenta essencial que combina segurança e simplicidade para quem busca proteger suas informações digitais. A aplicação permite que o usuário escolha entre diferentes critérios de geração de senha: Comprimento, Tipos de Caracteres (letras maiúsculas, minúsculas, números e símbolos) e Complexidade. Com base nessas escolhas, o aplicativo gera automaticamente senhas fortes e únicas, prontas para uso em diversas plataformas online.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O gerador oferece opções para senhas de diferentes níveis de complexidade, desde combinações básicas até sequências extremamente seguras, atendendo tanto usuários que buscam praticidade quanto aqueles que priorizam a máxima proteção. Durante a geração, o usuário pode visualizar a senha e copiar para a área de transferência com um único clique, facilitando o uso imediato. Além disso, o aplicativo oferece um histórico de senhas geradas, permitindo que o usuário acompanhe e gerencie suas credenciais de forma organizada.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+O projeto Gerador de Senhas não é apenas uma ferramenta de segurança, mas também um aliado na proteção da sua vida digital, que ajuda usuários de todos os níveis a criar senhas robustas de forma rápida e eficiente.
 
-## Learn More
+## 🖥️ Como rodar este projeto 🖥️
 
-To learn more about Next.js, take a look at the following resources:
+### Requisitos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Node.js](https://nodejs.org/pt) instalado
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Execução:
 
-## Deploy on Vercel
+1. Clone este repositório:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```sh
+   git clone https://github.com/patresio/gerador-senha-nextjs
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Acesse o diretório do projeto:
+
+   ```sh
+   cd gerador-senha-nextjs
+   ```
+
+3. Instale as dependências:
+
+   ```sh
+   npm install
+   ```
+
+4. Inicie o servidor (Next.js):
+
+   ```sh
+   npm run dev
+   ```
+
+5. Acesse o projeto em [http://localhost:3000](http://localhost:3000).
+
+## 🗒️ Features do projeto 🗒️
+
+- Permite definir o comprimento da senha (número de caracteres).
+- Opções para incluir ou excluir tipos específicos de caracteres: letras maiúsculas, letras minúsculas, números e símbolos.
+- Níveis de complexidade ajustáveis para atender diferentes requisitos de segurança.
+- Gera senhas fortes e únicas com base nos critérios selecionados pelo usuário.
+- Exibe a senha gerada de forma clara e legível.
+- Função de cópia com um clique para colar a senha em qualquer campo desejado.
+- Mantém um registro das senhas geradas anteriormente, permitindo fácil acesso e gerenciamento.
+- Permite que o usuario gere quantas senhas forem necessárias.
+
+![](https://github.com/patresio/gerador-senha-nextjs/raw/main/.gitassets/2.jpg)
+
+## 💎 Links úteis 💎
+
+- [Next.js](https://nextjs.org/docs)
+- [TypeScript](https://www.typescriptlang.org/docs)
