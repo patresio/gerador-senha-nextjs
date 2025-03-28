@@ -69,6 +69,7 @@ O projeto Gerador de Senhas não é apenas uma ferramenta de segurança, mas tam
 - Permite que o usuario gere quantas senhas forem necessárias.
 
 ![](https://github.com/patresio/gerador-senha-nextjs/raw/main/.gitassets/2.jpg)
+![](https://github.com/patresio/gerador-senha-nextjs/raw/main/.gitassets/3.jpg)
 
 ## 💎 Links úteis 💎
 
